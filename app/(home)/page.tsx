@@ -26,11 +26,15 @@ export default function MarketingPage() {
           headingFont.className
         )}
       >
-        <h1 className="text-3xl md:text-5xl text-center text-neutral-200 mb-4 md:mb-6">
-          Technovation: Bridging The Future
+        <h1 className="text-4xl md:text-5xl text-center text-neutral-200 mb-2">
+          Technovation
         </h1>
 
-        <div className="text-3xl md:text-6xl text-center text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-600 px-4 pb-4 w-fit">
+        <h1 className="text-4xl md:text-5xl text-center text-neutral-200 mb-4 md:mb-4">
+          Bridging The Future
+        </h1>
+
+        <div className="text-4xl md:text-6xl text-center text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-600 px-4 pb-4 w-fit">
           Innovation Mela 2024
         </div>
 
