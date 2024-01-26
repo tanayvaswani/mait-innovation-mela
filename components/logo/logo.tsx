@@ -14,11 +14,11 @@ const Logo = () => {
         <Image src={"/mait.png"} alt={"logo"} height={50} width={50} />
         <p
           className={cn(
-            "text-xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-600 pb-1",
+            "text-xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-600",
             headingFont.className
           )}
         >
-          Innovation Mela 2024
+          Innovation Mela
         </p>
       </div>
     </Link>
