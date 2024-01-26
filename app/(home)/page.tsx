@@ -4,9 +4,11 @@ import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
 import { Poppins } from "next/font/google";
 import { ChevronRight, Sparkles } from "lucide-react";
-import { MovingCards } from "@/components/landing/moving-cards/moving-cards";
+import { MovingCardsRight } from "@/components/landing/moving-cards/moving-cards-right";
 import GGSIPUSection from "@/components/landing/about-section/ggsipu-section";
 import AboutInstitue from "@/components/landing/about-section/institute-section";
+import Particles from "@/components/ui/particles";
+import { MovingCardsLeft } from "@/components/landing/moving-cards/moving-cards-left";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -20,6 +22,7 @@ const textFont = Poppins({
 export default function MarketingPage() {
   return (
     <main className="flex items-center justify-center flex-col">
+      <Particles className="fixed  inset-0 -z-10" quantity={1000} />
       <div
         className={cn(
           "flex items-center justify-center flex-col",
@@ -73,7 +76,10 @@ export default function MarketingPage() {
       </div>
 
       {/* Organizers */}
-      <MovingCards />
+      <MovingCardsLeft />
+
+      {/* Organizers */}
+      <MovingCardsRight />
 
       {/* About GGSIPU */}
       <GGSIPUSection />

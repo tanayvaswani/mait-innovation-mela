@@ -5,8 +5,10 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="h-full">
       <Navbar />
-      <BackgroundCanvas />
-      <main className="pt-40 pb-20">{children}</main>
+      {/* <BackgroundCanvas /> */}
+      <main className="pt-40 pb-20 w-full">
+        {children}
+      </main>
       {/* <Footer /> */}
     </div>
   );

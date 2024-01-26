@@ -3,9 +3,9 @@
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
-export function MovingCards() {
+export function MovingCardsRight() {
   return (
-    <div className="h-[24rem] rounded-md flex flex-col antialiased bg-transparent items-center justify-center relative overflow-hidden">
+    <div className="h-[16rem] rounded-md flex flex-col antialiased bg-transparent items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
