@@ -36,7 +36,7 @@ export default function MarketingPage() {
 
         <div
           className={cn(
-            "text-sm md:text-xl text-neutral-400 mt-4 max-w-sm md:max-w-2xl text-center mx-auto",
+            "text-sm md:text-xl text-neutral-400 mt-4 max-w-sm md:max-w-2xl text-center mx-auto px-2",
             textFont.className
           )}
         >
