@@ -43,9 +43,9 @@ export default function MarketingPage() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-4">
+      <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-4 mt-6 md:mt-6">
         <Button
-          className="mt-6 rounded-full text-neutral-200 font-semibold bg-gradient-to-r from-red-600 to-pink-600"
+          className="rounded-full text-neutral-200 font-semibold bg-gradient-to-r from-red-600 to-pink-600"
           size={"lg"}
           asChild
         >
@@ -55,7 +55,7 @@ export default function MarketingPage() {
         </Button>
 
         <Button
-          className="mt-6 rounded-full"
+          className="rounded-full"
           size={"lg"}
           variant={"outline"}
           asChild

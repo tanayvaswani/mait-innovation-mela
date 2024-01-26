@@ -8,11 +8,20 @@ export const Navbar = () => {
       <div className="md:max-w-screen-2xl mx-auto flex items-center justify-between w-full">
         <Logo />
 
-        <div className="flex items-center justify-between md:w-auto md:block w-full space-x-4">
-          <Button variant={"outline"} size={"sm"} asChild>
+        <div className="flex items-center space-x-4">
+          <Button
+            className="hidden md:block"
+            variant={"outline"}
+            size={"sm"}
+            asChild
+          >
             <Link href={""}>See more</Link>
           </Button>
-          <Button size={"sm"} asChild>
+          <Button
+            className="bg-gradient-to-r from-red-600 to-pink-600 text-neutral-100 font-semibold"
+            size={"sm"}
+            asChild
+          >
             <Link href={""}>Join now</Link>
           </Button>
         </div>
