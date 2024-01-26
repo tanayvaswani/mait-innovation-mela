@@ -10,7 +10,7 @@ export const Navbar = () => {
 
         <div className="flex items-center space-x-4">
           <Button
-            className="hidden md:block"
+            className="hidden md:flex"
             variant={"outline"}
             size={"sm"}
             asChild

@@ -43,7 +43,7 @@ export default function MarketingPage() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-y-2 md:gap-x-4 mt-6 md:mt-6">
+      <div className="flex flex-col md:flex-row mt-6 md:mt-6 gap-2">
         <Button
           className="rounded-full text-neutral-200 font-semibold bg-gradient-to-r from-red-600 to-pink-600"
           size={"lg"}
