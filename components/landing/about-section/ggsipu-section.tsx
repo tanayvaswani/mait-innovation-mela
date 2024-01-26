@@ -6,10 +6,11 @@ import { ChevronRight } from "lucide-react";
 
 const GGSIPUSection = () => {
   return (
-    <div className="w-full flex flex-col-reverse lg:flex-row items-center justify-between my-20 gap-6 px-4 md:px-12">
+    <div className="w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-between my-20 gap-6 px-4 md:px-12">
       <div className="w-full flex flex-col items-start justify-center">
-        <h3 className="font-semibold text-sm text-neutral-300">
-          <span className="font-bold text-red-600 pr-1">|</span>GGSIPU
+        <h3 className="font-semibold text-sm text-red-100">
+          <span className="font-bold text-lg text-red-600 pr-1">|</span>GGSIPU,
+          New Delhi
         </h3>
 
         <h2 className="text-xl md:text-3xl font-bold text-neutral-100 mt-2 mb-4">
@@ -32,12 +33,6 @@ const GGSIPUSection = () => {
           and also to achieve excellence in these and connected fields and other
           matters connected therewith or incidental thereto.
         </p>
-
-        <Button className="mt-6 rounded-full hover:shadow-sm" asChild>
-          <Link href={""} target="_blank">
-            See more <ChevronRight className="h-4 w-4 ml-1" />
-          </Link>
-        </Button>
       </div>
 
       <div className="p-2 md:p-4 rounded-xl md:rounded-2xl bg-neutral-800 border">

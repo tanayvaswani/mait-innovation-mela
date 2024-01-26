@@ -6,6 +6,7 @@ import { Poppins } from "next/font/google";
 import { ChevronRight, Sparkles } from "lucide-react";
 import { MovingCards } from "@/components/landing/moving-cards/moving-cards";
 import GGSIPUSection from "@/components/landing/about-section/ggsipu-section";
+import AboutInstitue from "@/components/landing/about-section/institute-section";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -67,9 +68,14 @@ export default function MarketingPage() {
         </Button>
       </div>
 
+      {/* Organizers */}
       <MovingCards />
 
+      {/* About GGSIPU */}
       <GGSIPUSection />
+
+      {/* About MAIT */}
+      <AboutInstitue />
     </main>
   );
 }
