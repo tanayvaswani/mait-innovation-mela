@@ -26,7 +26,7 @@ export default function MarketingPage() {
           headingFont.className
         )}
       >
-        <h1 className="text-3xl md:text-6xl text-center text-neutral-200 mb-4 md:mb-6">
+        <h1 className="text-3xl md:text-5xl text-center text-neutral-200 mb-4 md:mb-6">
           Technovation: Bridging The Future
         </h1>
 
