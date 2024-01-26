@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
 import { Poppins } from "next/font/google";
 import { ChevronRight, Sparkles } from "lucide-react";
+import { MovingCards } from "@/components/landing/moving-cards/moving-cards";
 
 const headingFont = localFont({
   src: "../../public/fonts/font.woff2",
@@ -64,6 +65,8 @@ export default function MarketingPage() {
           </Link>
         </Button>
       </div>
+
+      <MovingCards />
     </main>
   );
 }
