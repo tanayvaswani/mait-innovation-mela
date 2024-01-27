@@ -6,18 +6,18 @@ import { ChevronRight } from "lucide-react";
 
 const GGSIPUSection = () => {
   return (
-    <div className="w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-between my-20 gap-6 px-4 md:px-12">
-      <div className="w-full flex flex-col items-start justify-center">
-        <h3 className="font-semibold text-sm text-red-100">
-          <span className="font-bold text-lg text-red-600 pr-1">|</span>GGSIPU,
+    <div className="my-20 flex w-full flex-col-reverse items-center justify-between gap-6 px-4 md:px-12 lg:flex-row-reverse">
+      <div className="flex w-full flex-col items-start justify-center">
+        <h3 className="text-sm font-semibold text-red-100">
+          <span className="pr-1 text-lg font-bold text-red-600">|</span>GGSIPU,
           New Delhi
         </h3>
 
-        <h2 className="text-xl md:text-3xl font-bold text-neutral-100 mt-2 mb-4">
+        <h2 className="mb-4 mt-2 text-xl font-bold text-neutral-100 md:text-3xl">
           About GGSIPU
         </h2>
 
-        <p className="text-neutral-400 font-medium">
+        <p className="font-medium text-neutral-400">
           Guru Gobind Singh Indraprastha University (GGSIPU) is the first
           University established in 1998 by Govt. of NCT of Delhi under the
           provisions of Guru Gobind Singh Indraprastha University Act, 1998 read
@@ -35,7 +35,7 @@ const GGSIPUSection = () => {
         </p>
       </div>
 
-      <div className="p-2 md:p-4 rounded-xl md:rounded-2xl bg-neutral-800 border">
+      <div className="rounded-xl border bg-neutral-800 p-2 md:rounded-2xl md:p-4">
         <Image
           src={ggsipu}
           alt={"platform"}
